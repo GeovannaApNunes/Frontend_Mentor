@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3ebe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem do produto */
+.img-1 {
+    width: 50%;
+}
+
+/* Área do texto */
+.escrita {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.escrita p:first-child {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.escrita p:nth-child(3) {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Preços */
+h2 {
+    font-size: 24px;
+    color: #3d8168;
+    display: inline-block;
+}
+
+.escrita p:nth-child(5) {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+}
+
+/* Botão */
+.botao {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d8168;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+.botao:hover {
+    background-color: #295c4a;
+}
