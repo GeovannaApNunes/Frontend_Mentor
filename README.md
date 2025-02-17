@@ -15,10 +15,3 @@ Um blog básico que exibe HTML, CSS e as datas de publicação. Desenvolvido par
 Tecnologias Utilizadas
 	•	HTML
 	•	CSS
-
-
-<img src="./Frontend_projetos/Capturadetela2025-02-17174151" alt="#" style="max-width:100%; height: auto;">
-<img src="./img_spotify/spotify_clone_02.png" alt="#" style="max-width: 100%; height: auto;">
-<img src="./img_spotify/spotify_clone_02.png" alt="#" style="max-width: 100%; height: auto;">
-<img src="./img_spotify/spotify_clone_02.png" alt="#" style="max-width: 100%; height: auto;">
-
